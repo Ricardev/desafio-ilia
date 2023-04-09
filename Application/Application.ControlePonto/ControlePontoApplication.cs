@@ -41,7 +41,7 @@ public class ControlePontoApplication : IControlePontoApplication
     {
         if (!Regex.Match(mes, @"^\d\d\d\d-(0[1-9]|1[012])").Success)
         {
-            _messageBus.RaiseValidationError("A formatação da data está errada. Por favor, use AAAA-MM",
+            _messageBus.RaiseValidationError("A formatação da data está errada. Por favor, use AAAA-MM e meses entre 1 e 12.",
                 StatusCodes.Status400BadRequest);
             return null;
         }

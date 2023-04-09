@@ -1,17 +1,27 @@
-﻿using Domain.ControlePonto.Command;
+﻿using Application.ControlePonto;
+using Application.ControlePonto.AutoMapper;
+using Domain.ControlePonto.Command;
 using Domain.ControlePonto.Entities;
 using MediatR;
 using Moq;
+using Moq.AutoMock;
 
 namespace UnitTests.Application;
-
-public class ControlePontoApplicationSetups
+[CollectionDefinition(nameof(ControlePontoApplicationCollection))]
+public class ControlePontoApplicationCollection : ICollectionFixture<ControlePontoApplicationSetup>{}
+public class ControlePontoApplicationSetup
 {
-    public ControlePontoApplicationSetups(){}
-    public void SetupSendRegistrarPontoCommand(RegistrarPontoCommand command)
+    private AutoMocker _mocker;
+    public ControlePontoApplication ObterControlePontoApplication()
     {
-        var mediatorMock = new Mock<IMediator>();
-        mediatorMock.Setup(x => x.Send(command,It.IsAny<CancellationToken>()))
+        _mocker = new AutoMocker();
+        _mocker.Use(ControlePontoAutoMapperConfig.RegisterControlePontoMapping().CreateMapper());
+        return _mocker.CreateInstance<ControlePontoApplication>();
+    }
+    public  void SetupSendRegistrarPontoCommand(RegistrarPontoCommand command)
+    { 
+        _mocker.GetMock<IMediator>()
+            .Setup(x => x.Send(It.IsAny<RegistrarPontoCommand>(),It.IsAny<CancellationToken>()))
             .ReturnsAsync(new Registro(command.DataHora));
     }
 }

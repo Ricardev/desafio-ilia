@@ -1,24 +1,25 @@
-﻿using Application.ControlePonto;
+﻿using System.ComponentModel;
+using Application.ControlePonto;
 using Application.ControlePonto.Models;
 using Domain.ControlePonto.Command;
-using MediatR;
-using Moq;
 
 namespace UnitTests.Application;
 
+[Collection(nameof(ControlePontoApplicationCollection))]
 public class ControlePontoApplicationTest
 {
     private readonly IControlePontoApplication _controlePontoApplication;
-    private readonly ControlePontoApplicationSetups _setups;
+    private readonly ControlePontoApplicationSetup _setups;
 
-    public ControlePontoApplicationTest(IControlePontoApplication controlePontoApplication)
+    public ControlePontoApplicationTest(ControlePontoApplicationSetup controleApplicationSetup)
     {
-        _setups = new ControlePontoApplicationSetups();
-        _controlePontoApplication = controlePontoApplication;
+        _setups = controleApplicationSetup;
+        _controlePontoApplication = _setups.ObterControlePontoApplication();
     }
 
 
     [Fact(DisplayName = "Registrando ponto com sucesso")]
+    [Category("Success")]
     public async void RegistrarPontoComSucesso()
     {
         //Arrange
