@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "MQnqtfIuVs/x1BHfr+r5Jw5d5UKBnolACK/js0+GTSPRq5wIoYVeNTP71YiXiVH930V9C7yRRtCLTsT/ngfuXQ==",
+  "dgSpecHash": "IlKUw3CJktPD9BOnkuVPPqEfEvq8jtx8J+tijJM3A4dgECxPo2PD2vfIU4LsAlpDNyaNM0A4kWvfTCixIRD6ow==",
   "success": true,
   "projectFilePath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
@@ -20,10 +20,8 @@
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\moq\\4.18.4\\moq.4.18.4.nupkg.sha512",
-    "C:\\Users\\ricar\\.nuget\\packages\\moq.automock\\3.5.0\\moq.automock.3.5.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
-    "C:\\Users\\ricar\\.nuget\\packages\\nonblocking\\2.1.1\\nonblocking.2.1.1.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -76,7 +74,6 @@
     "C:\\Users\\ricar\\.nuget\\packages\\system.reflection.typeextensions\\4.3.0\\system.reflection.typeextensions.4.3.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\system.resources.resourcemanager\\4.3.0\\system.resources.resourcemanager.4.3.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\system.runtime\\4.3.0\\system.runtime.4.3.0.nupkg.sha512",
-    "C:\\Users\\ricar\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.3.0\\system.runtime.compilerservices.unsafe.4.3.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\system.runtime.extensions\\4.3.0\\system.runtime.extensions.4.3.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\ricar\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",

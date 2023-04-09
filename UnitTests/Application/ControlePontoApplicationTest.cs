@@ -2,38 +2,47 @@
 using Application.ControlePonto.Models;
 using Domain.ControlePonto.Command;
 using MediatR;
-using Moq.AutoMock;
+using Moq;
 
 namespace UnitTests.Application;
 
 public class ControlePontoApplicationTest
 {
     private readonly IControlePontoApplication _controlePontoApplication;
-    private readonly AutoMocker _autoMocker;
+    private readonly ControlePontoApplicationSetups _setups;
 
     public ControlePontoApplicationTest(IControlePontoApplication controlePontoApplication)
     {
-        _autoMocker = new AutoMocker();
+        _setups = new ControlePontoApplicationSetups();
         _controlePontoApplication = controlePontoApplication;
     }
 
 
-    [Fact]
-    public void RegistrarPontoComSucesso()
+    [Fact(DisplayName = "Registrando ponto com sucesso")]
+    public async void RegistrarPontoComSucesso()
     {
         //Arrange
         var momentoModel = new MomentoModel
         {
             DataHora = "2018-08-22T08:00:00"
         };
+        var data = DateTime.Parse(momentoModel.DataHora);
+        var registroModel = new RegistroModel
+        {
+            Dia = data,
+            Horarios = new List<string>
+            {
+                data.ToLongTimeString()
+            }
+        };
         var registrarPontoCommand = new RegistrarPontoCommand(DateTime.Parse(momentoModel.DataHora));
-
-        _autoMocker.Setup<IMediator>(x => x.Send(registrarPontoCommand, CancellationToken.None));
+        _setups.SetupSendRegistrarPontoCommand(registrarPontoCommand);
 
         //Act
-        _controlePontoApplication.RegistrarPonto(momentoModel);
+        var result = await _controlePontoApplication.RegistrarPonto(momentoModel);
 
         //Assert
-        
+        Assert.Equal(registroModel.Dia, result.Dia);
+        Assert.Contains(registroModel.Horarios.FirstOrDefault(), result.Horarios);
     }
 }
