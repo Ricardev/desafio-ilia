@@ -13,12 +13,12 @@ public class CoreController : ControllerBase
         _messageBus = messageBus;
     }
 
-    protected new IActionResult Response<T>(T data, int successStatusCode = StatusCodes.Status200OK)
+    protected new IActionResult Response<T>(T? data, int successStatusCode = StatusCodes.Status200OK)
     {
         var validationError = _messageBus.GetValidationError();
 
         if (string.IsNullOrEmpty(validationError?.Mensagem))
-            return new ObjectResult(new ResponseModelSuccess<T>(data))
+            return new ObjectResult(new ResponseModelSuccess<T?>(data))
             {
                 StatusCode = successStatusCode
             };

@@ -2,7 +2,13 @@ C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Cont
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Infra.CrossCutting.ControlePonto.dll
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Infra.CrossCutting.ControlePonto.pdb
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Application.ControlePonto.dll
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.dll
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Domain.Core.dll
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Infra.Data.ControlePonto.dll
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Application.ControlePonto.pdb
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Infra.Data.ControlePonto.pdb
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.pdb
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Domain.Core.pdb
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\obj\Debug\net6.0\Infra.CrossCutting.ControlePonto.csproj.AssemblyReference.cache
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\obj\Debug\net6.0\Infra.CrossCutting.ControlePonto.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\obj\Debug\net6.0\Infra.CrossCutting.ControlePonto.AssemblyInfoInputs.cache
@@ -13,9 +19,3 @@ C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Cont
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\obj\Debug\net6.0\refint\Infra.CrossCutting.ControlePonto.dll
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\obj\Debug\net6.0\Infra.CrossCutting.ControlePonto.pdb
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\obj\Debug\net6.0\ref\Infra.CrossCutting.ControlePonto.dll
-C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.dll
-C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Infra.Data.ControlePonto.dll
-C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Infra.Data.ControlePonto.pdb
-C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.pdb
-C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Domain.Core.dll
-C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\bin\Debug\net6.0\Domain.Core.pdb

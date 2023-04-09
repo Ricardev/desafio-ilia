@@ -9,6 +9,7 @@ public class RelatorioDasHorasTrabalhadasModel
     public int MesDoRelatorio { get; }
     public int AnoDoRelatorio { get; }
     public int QuantidadeDiasUteisNoMes { get; }
+    
     public RelatorioDasHorasTrabalhadasModel(int ano,int mes,int horas, int minutos, int segundos, int quantidadeDiasUteisNoMes)
     {
         AnoDoRelatorio = ano;

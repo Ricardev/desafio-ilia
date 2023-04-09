@@ -29,7 +29,7 @@ public class ControlePontoCommandHandler : IRequestHandler<RegistrarPontoCommand
             var registroAdicionado = _controlePontoRepository.RegistrarPonto(registro);
             return Task.FromResult(registroAdicionado)!;
         }
-        catch (Exception e)
+        catch (Exception)
         {
             return Task.FromResult<Registro?>(null);;
         }

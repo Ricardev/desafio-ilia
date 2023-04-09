@@ -35,9 +35,9 @@ public class ControlePontoController : CoreController.CoreController
         if (!validationResult.IsValid)
         {
             int.TryParse(validationResult.Errors?.FirstOrDefault()?.ErrorCode, out var statusCodes);
-            _messageBus.RaiseValidationError($"{validationResult.Errors?.FirstOrDefault().ErrorMessage}",
+            _messageBus.RaiseValidationError($"{validationResult.Errors?.FirstOrDefault()?.ErrorMessage}",
                 statusCodes);
-            return Response<MomentoModel>(null);
+            return Response<MomentoModel?>(null);
         }
             
         return Response(await _controlePontoApplication.RegistrarPonto(momento), 

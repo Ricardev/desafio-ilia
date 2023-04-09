@@ -1,8 +1,11 @@
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Infra.Data.ControlePonto.deps.json
+C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Infra.Data.ControlePonto.runtimeconfig.json
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Infra.Data.ControlePonto.dll
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Infra.Data.ControlePonto.pdb
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.dll
+C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Domain.Core.dll
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.pdb
+C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Domain.Core.pdb
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\Debug\net6.0\Infra.Data.ControlePonto.csproj.AssemblyReference.cache
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\Debug\net6.0\Infra.Data.ControlePonto.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\Debug\net6.0\Infra.Data.ControlePonto.AssemblyInfoInputs.cache
@@ -12,8 +15,5 @@ C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\De
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\Debug\net6.0\Infra.Data.ControlePonto.dll
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\Debug\net6.0\refint\Infra.Data.ControlePonto.dll
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\Debug\net6.0\Infra.Data.ControlePonto.pdb
-C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\Debug\net6.0\ref\Infra.Data.ControlePonto.dll
-C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Infra.Data.ControlePonto.runtimeconfig.json
 C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\Debug\net6.0\Infra.Data.ControlePonto.genruntimeconfig.cache
-C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Domain.Core.dll
-C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\bin\Debug\net6.0\Domain.Core.pdb
+C:\Users\ricar\Documents\desafio-ilia\Infra\Data\Infra.Data.ControlePonto\obj\Debug\net6.0\ref\Infra.Data.ControlePonto.dll

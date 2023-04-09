@@ -71,6 +71,7 @@ public class ControlePontoApplication : IControlePontoApplication
         
         var relatorioModel = new RelatorioModel
         {
+            Mes = mes,
             HorasDevidas = CalcularHorasDevidas(relatorioDasHorasTrabalhadas),
             HorasExcedentes = CalcularHorasExcedentes(relatorioDasHorasTrabalhadas),
             HorasTrabalhadas = CalcularHorasTrabalhadas(relatorioDasHorasTrabalhadas),
@@ -87,15 +88,15 @@ public class ControlePontoApplication : IControlePontoApplication
         if (totalDeHorasParaTrabalharNoMes - relatorioDasHoras.HorasTrabalhadas < 0)
             return "0S";
         
-        var horasDevidasEmSegundos = totalDeHorasParaTrabalharNoMes * 3600 -
+        decimal horasDevidasEmSegundos = totalDeHorasParaTrabalharNoMes * 3600 -
                                      (relatorioDasHoras.HorasTrabalhadas * 3600 +
                                       relatorioDasHoras.MinutosTrabalhados * 60 + relatorioDasHoras.SegundosTrabalhados);
         
-        var horasDevidas = Math.Round((decimal)(horasDevidasEmSegundos / 3600), MidpointRounding.ToZero);
+        var horasDevidas = Math.Round(horasDevidasEmSegundos / 3600, MidpointRounding.ToZero);
         
-        var minutosDevidos = Math.Round((decimal)(horasDevidasEmSegundos / 60)%60, MidpointRounding.ToZero);
+        var minutosDevidos = Math.Round((horasDevidasEmSegundos / 60)%60, MidpointRounding.ToZero);
         
-        var segundosDevidos = Math.Round((decimal)horasDevidasEmSegundos%60%60, MidpointRounding.ToZero);
+        var segundosDevidos = Math.Round(horasDevidasEmSegundos%60%60, MidpointRounding.ToZero);
         
         var horasMinutosSegundosDevidos = new StringBuilder("PT");
         
@@ -150,7 +151,7 @@ public class ControlePontoApplication : IControlePontoApplication
         
         var listaDeHorarios = registros.Select(x => x.Horarios);
         var totalDiasConcluidos = listaDeHorarios
-            .Where(x => x.Count == 4);
+            .Where(x => x.Count == 4).ToList();
 
         var totalHorasTrabalhadas = totalDiasConcluidos
             .Sum(x => TimeSpan.Parse(x[1], dateTimeFomartInfo)
@@ -170,7 +171,7 @@ public class ControlePontoApplication : IControlePontoApplication
             .Add(TimeSpan.Parse(x[3], dateTimeFomartInfo))
             .Subtract(TimeSpan.Parse(x[2], dateTimeFomartInfo)).Seconds);
 
-        var registroReferenciaParaMesAno = registros.FirstOrDefault().Dia;
+        var registroReferenciaParaMesAno = registros.FirstOrDefault()!.Dia;
         
         return new RelatorioDasHorasTrabalhadasModel(registroReferenciaParaMesAno.Year, 
             registroReferenciaParaMesAno.Month,

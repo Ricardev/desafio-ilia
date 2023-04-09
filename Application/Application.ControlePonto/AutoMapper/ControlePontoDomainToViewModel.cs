@@ -9,7 +9,7 @@ public class ControlePontoDomainToViewModel : Profile
     public ControlePontoDomainToViewModel()
     {
         CreateMap<Registro, RegistroModel>()
-            .ConstructUsing(ctor => new RegistroModel()
+            .ConstructUsing(ctor => new RegistroModel
             {
                 Dia = ctor.DiaHora,
                 Horarios = new List<string>
