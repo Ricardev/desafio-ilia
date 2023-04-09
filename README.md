@@ -1,23 +1,6 @@
 # Ília - Desafio Técnico
 
-## Descrição
-Olá, e obrigado por aceitar realizar o desafio técnico do nosso processo seletivo! (:
-
-O desafio consiste na implementação da API descrita em api.yaml. Todas as informações necessárias sobre a construção da API estão contidas nesse arquivo.
-
-É esperado que o projeto compile sem erros e que quaisquer instruções necessárias para preparar o ambiente e testar o projeto sejam fornecidas pelo desenvolvedor.
-
-A API pode ser visualizada utilizando o [Swagger Editor](https://editor.swagger.io) com o arquivo yaml fornecido. 
-
-## Q&A
-### Qual framework/linguagem devo utilizar?
-Para facilitar a avaliação do desafio, pedimos que ele seja realizado em .NET, Java ou NodeJS.
-
-### Terminei a implementação da API. É necessário fazer mais alguma coisa?
-Não há nenhum outro requisito fixo além dos especificados em api.yaml. Porém, pedimos que, dentro do prazo estabelecido, o desafio seja entregue da maneira mais completa possível. Será avaliado o que o candidato considera ser essencial para a entrega do projeto.
-
-### Como o meu projeto será avaliado?
-Pela correta implementação da API de acordo com a especificação e pelos demais conceitos aplicados na entrega do desafio, de acordo com o nível da vaga.
-
-### Terminei o desafio. Como faço a entrega?
-Envie-nos por favor um link com o repositório para que possamos dar uma olhada no código. 😉
+## Para executar o projeto
+É necessário que possua o Docker instalado na sua máquina. Com o docker rodando, execute o comando "sh run_docker.sh" na raiz do repositório, utilizando o *Git Bash*. Com isso o shellscript executará o "container run" e teremos o nosso banco de dados, nesse caso o Postgres.
+Após isso, é só subir o serviço usando o terminal, F5 ou qualquer outro método a sua escolha e ser feliz.
+A página do Swagger abre automaticamente, é só seguir a documentação provida e poderá usar os endpoints.
