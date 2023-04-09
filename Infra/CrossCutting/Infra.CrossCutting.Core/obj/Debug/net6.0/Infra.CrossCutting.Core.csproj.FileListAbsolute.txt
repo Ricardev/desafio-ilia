@@ -1,0 +1,16 @@
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Infra.CrossCutting.Core.deps.json
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Infra.CrossCutting.Core.dll
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Infra.CrossCutting.Core.pdb
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Domain.Core.dll
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Domain.Core.pdb
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.csproj.AssemblyReference.cache
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.AssemblyInfoInputs.cache
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.AssemblyInfo.cs
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.csproj.CoreCompileInputs.cache
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.csproj.CopyComplete
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.dll
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\refint\Infra.CrossCutting.Core.dll
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.pdb
+C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\ref\Infra.CrossCutting.Core.dll

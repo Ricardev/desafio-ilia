@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.2" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Versioning" Version="4.1.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Application\Application.ControlePonto\Application.ControlePonto.csproj" />
+    <ProjectReference Include="..\..\Infra\CrossCutting\Infra.CrossCutting.ControlePonto\Infra.CrossCutting.ControlePonto.csproj" />
+    <ProjectReference Include="..\..\Infra\CrossCutting\Infra.CrossCutting.Core\Infra.CrossCutting.Core.csproj" />
+    <ProjectReference Include="..\CoreController\CoreController.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,2 @@
+#!/bin/bash
+docker container run --name controle_ponto -p 5432:5432 -e POSTGRES_DB=IliaDb -e POSTGRES_USER=ilia -e POSTGRES_PASSWORD=pipipipopopo -v "/$(pwd)/Scripts/init.sql:/docker-entrypoint-initdb.d/init.sql" -d postgres
