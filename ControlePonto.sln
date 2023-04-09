@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain.Core", "Domain\Domai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra.CrossCutting.Core", "Infra\CrossCutting\Infra.CrossCutting.Core\Infra.CrossCutting.Core.csproj", "{11056FA3-F1AD-47A6-902C-ADEE34C45710}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{628975E2-2A8D-4D08-A97E-13B04F30C70F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -72,6 +74,10 @@ Global
 		{11056FA3-F1AD-47A6-902C-ADEE34C45710}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11056FA3-F1AD-47A6-902C-ADEE34C45710}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11056FA3-F1AD-47A6-902C-ADEE34C45710}.Release|Any CPU.Build.0 = Release|Any CPU
+		{628975E2-2A8D-4D08-A97E-13B04F30C70F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{628975E2-2A8D-4D08-A97E-13B04F30C70F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{628975E2-2A8D-4D08-A97E-13B04F30C70F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{628975E2-2A8D-4D08-A97E-13B04F30C70F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{5EBD9D25-92DA-4110-98F1-3A85C2B4C899} = {3F769BD5-C9F8-407A-8E9B-2378FE65F6DC}
