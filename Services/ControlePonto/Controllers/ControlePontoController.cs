@@ -29,7 +29,7 @@ public class ControlePontoController : CoreController.CoreController
     [ProducesResponseType(typeof(RegistroModel),StatusCodes.Status201Created)]
     [ProducesResponseType(typeof(ResponseModelFailure),StatusCodes.Status403Forbidden)]
     [ProducesResponseType(typeof(ResponseModelFailure),StatusCodes.Status400BadRequest)]
-    public async Task<IActionResult> GetBatidas([FromBody] MomentoModel momento)
+    public async Task<IActionResult> RegistrarBatida([FromBody] MomentoModel momento)
     {
         var validationResult = momento.ValidateViewModel();
         if (!validationResult.IsValid)

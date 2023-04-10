@@ -2,7 +2,6 @@ C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Infra.CrossCutting.Core.dll
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Infra.CrossCutting.Core.pdb
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Domain.Core.dll
-C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\bin\Debug\net6.0\Domain.Core.pdb
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.csproj.AssemblyReference.cache
 C:\Users\ricar\Documents\desafio-ilia\Infra\CrossCutting\Infra.CrossCutting.Core\obj\Debug\net6.0\Infra.CrossCutting.Core.GeneratedMSBuildEditorConfig.editorconfig

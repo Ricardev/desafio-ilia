@@ -69,3 +69,6 @@ C:\Users\ricar\Documents\desafio-ilia\Services\ControlePonto\obj\Debug\net6.0\re
 C:\Users\ricar\Documents\desafio-ilia\Services\ControlePonto\obj\Debug\net6.0\ControlePonto.pdb
 C:\Users\ricar\Documents\desafio-ilia\Services\ControlePonto\obj\Debug\net6.0\ControlePonto.genruntimeconfig.cache
 C:\Users\ricar\Documents\desafio-ilia\Services\ControlePonto\obj\Debug\net6.0\ref\ControlePonto.dll
+C:\Users\ricar\Documents\desafio-ilia\Services\ControlePonto\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\ricar\Documents\desafio-ilia\Services\ControlePonto\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\ricar\Documents\desafio-ilia\Services\ControlePonto\bin\Debug\net6.0\Newtonsoft.Json.dll

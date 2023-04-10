@@ -1,4 +1,5 @@
-﻿using Application.ControlePonto;
+﻿using System.Linq.Expressions;
+using Application.ControlePonto;
 using Application.ControlePonto.AutoMapper;
 using Domain.ControlePonto;
 using Domain.ControlePonto.Command;
@@ -30,5 +31,10 @@ public class ControlePontoApplicationSetup
         _mocker.GetMock<IControlePontoRepository>()
             .Setup(x => x.ObterRelatorio(It.IsAny<DateTime>()))
             .Returns(registros);
+    }
+    
+    public void VerifyMethod<T>(Expression<Action<T>> funcaoExecutada,Times quantidadeVezesExecutadas) where T : class
+    {
+        _mocker.Verify(funcaoExecutada, quantidadeVezesExecutadas);
     }
 }

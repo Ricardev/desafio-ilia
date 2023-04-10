@@ -37,9 +37,9 @@ public class ControlePontoApplication : IControlePontoApplication
         return registroModel;
     }
 
-    public RelatorioModel? ObterRelatorio(string mes)
+    public RelatorioModel? ObterRelatorio(string mesEAno)
     {
-        if (!Regex.Match(mes, @"^\d\d\d\d-(0[1-9]|1[012])").Success)
+        if (!Regex.Match(mesEAno, @"^\d{4}-(0[1-9]|1[012])$").Success)
         {
             _messageBus.RaiseValidationError("A formatação da data está errada. Por favor, use AAAA-MM e meses entre 1 e 12.",
                 StatusCodes.Status400BadRequest);
@@ -48,7 +48,7 @@ public class ControlePontoApplication : IControlePontoApplication
         var formatInfo = new DateTimeFormatInfo();
         formatInfo.YearMonthPattern = "yyyy-MM";
         
-        var dateFilter = DateTime.Parse(mes, formatInfo);
+        var dateFilter = DateTime.Parse(mesEAno, formatInfo);
         var registros = _controlePontoRepository.ObterRelatorio(dateFilter).ToList();
         
         if (!registros.Any())
@@ -59,19 +59,18 @@ public class ControlePontoApplication : IControlePontoApplication
         
         var listaRegistrosUnidosPorDia = registros
             .GroupBy(x => x.DiaHora.Day)
-            .Select(x => x.ToList())
-            .ToList()
             .Select(x => new RegistroModel
             {
                 Dia = x.FirstOrDefault()!.DiaHora, 
                 Horarios = x.Select(registro => registro.DiaHora.ToLongTimeString()).ToList()
-            }).ToList();
+            })
+            .ToList();
 
         var relatorioDasHorasTrabalhadas = CriarRelatorioDasHorasTrabalhadas(listaRegistrosUnidosPorDia);
         
         var relatorioModel = new RelatorioModel
         {
-            Mes = mes,
+            Mes = mesEAno,
             HorasDevidas = CalcularHorasDevidas(relatorioDasHorasTrabalhadas),
             HorasExcedentes = CalcularHorasExcedentes(relatorioDasHorasTrabalhadas),
             HorasTrabalhadas = CalcularHorasTrabalhadas(relatorioDasHorasTrabalhadas),
@@ -103,7 +102,7 @@ public class ControlePontoApplication : IControlePontoApplication
         if(horasDevidas> 0)
             horasMinutosSegundosDevidos.Append(horasDevidas + "H");
             
-        if(minutosDevidos > 0)      
+        if(minutosDevidos > 0 || horasDevidas > 0)      
             horasMinutosSegundosDevidos.Append(minutosDevidos + "M");
             
         horasMinutosSegundosDevidos.Append(segundosDevidos + "S");
@@ -118,13 +117,17 @@ public class ControlePontoApplication : IControlePontoApplication
         if (horasExcedentes < 0)
             return "0S";
 
-        var horasMinutosSegundosExedentes = new StringBuilder("PT")
-            .Append(horasExcedentes + "H")
-            .Append(relatorioDasHoras.MinutosTrabalhados + "M")
-            .Append(relatorioDasHoras.SegundosTrabalhados + "S")
-            .ToString();
+        var horasMinutosSegundosExedentes = new StringBuilder("PT");
+        
+        if(horasExcedentes > 0)
+            horasMinutosSegundosExedentes.Append(horasExcedentes + "H");
+            
+        if(relatorioDasHoras.MinutosTrabalhados >0 || horasExcedentes >0)
+            horasMinutosSegundosExedentes.Append(relatorioDasHoras.MinutosTrabalhados + "M");
+        
+        horasMinutosSegundosExedentes.Append(relatorioDasHoras.SegundosTrabalhados + "S");
 
-        return horasMinutosSegundosExedentes;
+        return horasMinutosSegundosExedentes.ToString();
 
     }
     
@@ -135,7 +138,7 @@ public class ControlePontoApplication : IControlePontoApplication
         if(relatorioDasHoras.HorasTrabalhadas> 0)
             horasTrabalhadas.Append(relatorioDasHoras.HorasTrabalhadas + "H");
             
-        if(relatorioDasHoras.MinutosTrabalhados > 0)      
+        if(relatorioDasHoras.MinutosTrabalhados > 0 || relatorioDasHoras.HorasTrabalhadas > 0)      
             horasTrabalhadas.Append(relatorioDasHoras.MinutosTrabalhados + "M");
         
         horasTrabalhadas.Append(relatorioDasHoras.SegundosTrabalhados + "S");

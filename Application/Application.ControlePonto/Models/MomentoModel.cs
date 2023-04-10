@@ -23,11 +23,6 @@ public class MomentoModelValidator : AbstractValidator<MomentoModel>
         ClassLevelCascadeMode = CascadeMode.Stop;
 
         RuleFor(x => x.DataHora)
-            .NotNull()
-            .WithMessage("Campo obrigatório não informado")
-            .WithErrorCode(StatusCodes.Status400BadRequest.ToString());
-
-        RuleFor(x => x.DataHora)
             .NotEmpty()
             .WithMessage("Campo obrigatório não informado")
             .WithErrorCode(StatusCodes.Status400BadRequest.ToString());

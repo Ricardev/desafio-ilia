@@ -2,12 +2,6 @@ C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.dll
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.pdb
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Domain.Core.dll
-C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
-C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Microsoft.Extensions.Features.dll
-C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
-C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
-C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\System.IO.Pipelines.dll
-C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Microsoft.Net.Http.Headers.dll
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Domain.Core.pdb
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.csproj.AssemblyReference.cache
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.GeneratedMSBuildEditorConfig.editorconfig

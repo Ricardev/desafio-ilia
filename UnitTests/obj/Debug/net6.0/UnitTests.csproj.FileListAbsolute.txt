@@ -237,3 +237,6 @@ C:\Users\Rodolfo Martins\Documents\desafio-ilia\UnitTests\obj\Debug\net6.0\refin
 C:\Users\Rodolfo Martins\Documents\desafio-ilia\UnitTests\obj\Debug\net6.0\UnitTests.pdb
 C:\Users\Rodolfo Martins\Documents\desafio-ilia\UnitTests\obj\Debug\net6.0\UnitTests.genruntimeconfig.cache
 C:\Users\Rodolfo Martins\Documents\desafio-ilia\UnitTests\obj\Debug\net6.0\ref\UnitTests.dll
+C:\Users\ricar\Documents\desafio-ilia\UnitTests\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\ricar\Documents\desafio-ilia\UnitTests\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\ricar\Documents\desafio-ilia\UnitTests\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
