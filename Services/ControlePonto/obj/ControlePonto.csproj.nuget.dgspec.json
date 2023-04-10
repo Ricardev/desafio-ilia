@@ -1,36 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\ControlePonto\\ControlePonto.csproj": {}
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\ControlePonto\\ControlePonto.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj",
         "projectName": "Application.ControlePonto",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj"
               },
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -69,34 +70,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj",
         "projectName": "Domain.ControlePonto",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -135,26 +137,27 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -187,37 +190,38 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj",
         "projectName": "Infra.CrossCutting.ControlePonto",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj"
               },
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj"
               }
             }
           }
@@ -260,34 +264,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
         "projectName": "Infra.CrossCutting.Core",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -322,34 +327,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj",
         "projectName": "Infra.Data.ControlePonto",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\Infra.Data.ControlePonto.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\Data\\Infra.Data.ControlePonto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.ControlePonto\\Domain.ControlePonto.csproj"
               }
             }
           }
@@ -402,43 +408,44 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\ControlePonto\\ControlePonto.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\ControlePonto\\ControlePonto.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\ControlePonto\\ControlePonto.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\ControlePonto\\ControlePonto.csproj",
         "projectName": "ControlePonto",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\ControlePonto\\ControlePonto.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\ControlePonto\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\ControlePonto\\ControlePonto.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\ControlePonto\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Application\\Application.ControlePonto\\Application.ControlePonto.csproj"
               },
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.ControlePonto\\Infra.CrossCutting.ControlePonto.csproj"
               },
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj"
               },
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj"
               }
             }
           }
@@ -484,34 +491,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj",
         "projectName": "CoreController",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -554,7 +562,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

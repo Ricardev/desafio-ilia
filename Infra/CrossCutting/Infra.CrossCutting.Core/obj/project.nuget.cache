@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "eshgGZpEs7II/WEWFwqLmH9Kfp3Mh3dY3boh4uLMzhXyEDPIaPCRtbLq/BeXe+rZ+E+1i/sEKAk5yhBeutzTzQ==",
+  "dgSpecHash": "UN6A3JFOuYyKsESf5sfh+xxSkiVr2VY1eXWisPkVRCj7Z30SJr5mv9DQ+przFK7UPcF7JdJmgINxNqxRlCDfTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
+  "projectFilePath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+    "C:\\Users\\ricar\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,6 @@
 ﻿using Domain.ControlePonto;
 using Domain.ControlePonto.Entities;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infra.Data.ControlePonto;
 
@@ -24,7 +25,9 @@ public class ControlePontoRepository : IControlePontoRepository
     public IEnumerable<Registro> ObterRelatorio(DateTime mesEAno)
     {
         var registros = _context.Set<Registro>()
-            .Where(x => x.DiaHora.Month == mesEAno.Month && x.DiaHora.Year == mesEAno.Year);
+            .AsNoTracking()
+            .Where(x => x.DiaHora.Month == mesEAno.Month && 
+                        x.DiaHora.Year == mesEAno.Year);
         
         return registros.ToList();
     }
@@ -32,6 +35,7 @@ public class ControlePontoRepository : IControlePontoRepository
     public IEnumerable<Registro> ObterRegistrosDiario(DateTime date)
     {
         var registros = _context.Set<Registro>()
+            .AsNoTracking()
             .Where(x => x.DiaHora.Day == date.Day && 
                         x.DiaHora.Month == date.Month && 
                         date.Year == x.DiaHora.Year);

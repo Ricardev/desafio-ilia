@@ -9,7 +9,7 @@ public class MessageBus : IMessageBus
     
     public ValidationError? GetValidationError()
     {
-        ValidationErrors ??= new ValidationError("", 400);
+        ValidationErrors ??= new ValidationError(string.Empty, 400);
         return ValidationErrors;
     }
 

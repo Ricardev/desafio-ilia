@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj": {}
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj",
         "projectName": "Domain.Core",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -52,34 +53,35 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj": {
+    "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj",
+        "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj",
         "projectName": "CoreController",
-        "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj",
-        "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Services\\CoreController\\obj\\",
+        "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\CoreController.csproj",
+        "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Services\\CoreController\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
-                "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
+              "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
+                "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
               }
             }
           }
@@ -122,7 +124,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }
