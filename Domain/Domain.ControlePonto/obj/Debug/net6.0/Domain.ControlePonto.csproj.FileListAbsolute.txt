@@ -19,3 +19,18 @@ C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\refint\Domain.ControlePonto.dll
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.pdb
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\ref\Domain.ControlePonto.dll
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.csproj.AssemblyReference.cache
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.AssemblyInfoInputs.cache
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.AssemblyInfo.cs
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.dll
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\refint\Domain.ControlePonto.dll
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.pdb
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.deps.json
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.dll
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Domain.ControlePonto.pdb
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Domain.Core.dll
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\bin\Debug\net6.0\Domain.Core.pdb
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\Domain.ControlePonto.csproj.CopyComplete
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.ControlePonto\obj\Debug\net6.0\ref\Domain.ControlePonto.dll

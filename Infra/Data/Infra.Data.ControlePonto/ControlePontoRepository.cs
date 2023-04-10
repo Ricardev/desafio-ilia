@@ -24,8 +24,7 @@ public class ControlePontoRepository : IControlePontoRepository
     public IEnumerable<Registro> ObterRelatorio(DateTime mesEAno)
     {
         var registros = _context.Set<Registro>()
-            .AsQueryable()
-            .Where(x => x.DiaHora.Month == mesEAno.Month);
+            .Where(x => x.DiaHora.Month == mesEAno.Month && x.DiaHora.Year == mesEAno.Year);
         
         return registros.ToList();
     }
@@ -33,8 +32,9 @@ public class ControlePontoRepository : IControlePontoRepository
     public IEnumerable<Registro> ObterRegistrosDiario(DateTime date)
     {
         var registros = _context.Set<Registro>()
-            .AsQueryable()
-            .Where(x => x.DiaHora.Day == date.Day && x.DiaHora.Month == date.Month);
+            .Where(x => x.DiaHora.Day == date.Day && 
+                        x.DiaHora.Month == date.Month && 
+                        date.Year == x.DiaHora.Year);
         
         return registros.ToList();
     }

@@ -10,3 +10,15 @@ C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\Domain
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\refint\Domain.Core.dll
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\Domain.Core.pdb
 C:\Users\ricar\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\ref\Domain.Core.dll
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\bin\Debug\net6.0\Domain.Core.deps.json
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\bin\Debug\net6.0\Domain.Core.dll
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\bin\Debug\net6.0\Domain.Core.pdb
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\Domain.Core.csproj.AssemblyReference.cache
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\Domain.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\Domain.Core.AssemblyInfoInputs.cache
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\Domain.Core.AssemblyInfo.cs
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\Domain.Core.dll
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\refint\Domain.Core.dll
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\Domain.Core.pdb
+C:\Users\Rodolfo Martins\Documents\desafio-ilia\Domain\Domain.Core\obj\Debug\net6.0\ref\Domain.Core.dll

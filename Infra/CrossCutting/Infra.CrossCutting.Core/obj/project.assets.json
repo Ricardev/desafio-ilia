@@ -2,6 +2,22 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
       "Domain.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -15,6 +31,31 @@
     }
   },
   "libraries": {
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Domain.Core/1.0.0": {
       "type": "project",
       "path": "../../../Domain/Domain.Core/Domain.Core.csproj",
@@ -23,37 +64,37 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Domain.Core >= 1.0.0"
+      "Domain.Core >= 1.0.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ricar\\.nuget\\packages\\": {}
+    "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
       "projectName": "Infra.CrossCutting.Core",
-      "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
-      "packagesPath": "C:\\Users\\ricar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\obj\\",
+      "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\Infra.CrossCutting.Core.csproj",
+      "packagesPath": "C:\\Users\\Rodolfo Martins\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Infra\\CrossCutting\\Infra.CrossCutting.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ricar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Rodolfo Martins\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
-              "projectPath": "C:\\Users\\ricar\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
+            "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj": {
+              "projectPath": "C:\\Users\\Rodolfo Martins\\Documents\\desafio-ilia\\Domain\\Domain.Core\\Domain.Core.csproj"
             }
           }
         }
@@ -67,6 +108,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -82,7 +129,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.310\\RuntimeIdentifierGraph.json"
       }
     }
   }

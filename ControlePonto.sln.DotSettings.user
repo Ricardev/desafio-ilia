@@ -3,5 +3,8 @@
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=14f77d81_002D4ccf_002D4437_002Dbcc7_002Dd2f9c7a49942/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="RegistrarPontoComSucesso" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::628975E2-2A8D-4D08-A97E-13B04F30C70F::net6.0::UnitTests.Application.ControlePontoApplicationTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::628975E2-2A8D-4D08-A97E-13B04F30C70F::net6.0::UnitTests.Domain.Command.ControlePontoCommandHandlerTest.CriacaoDoRegistroDoPontoComSucesso&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::628975E2-2A8D-4D08-A97E-13B04F30C70F::net6.0::UnitTests.Domain.Command.ControlePontoCommandHandlerTest.FalhaCriacaoDoRegistroFinalDeSemana&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::628975E2-2A8D-4D08-A97E-13B04F30C70F::net6.0::UnitTests.Domain.Command.ControlePontoCommandHandlerTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
